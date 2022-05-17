@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Serif:opsz@8..144&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Serif', serif;
+}
+.navbar{
+    top: 0%;
+    position: sticky;
+    z-index: 1000;
+}
+.container h1{
+    text-align: center !important;
+}
+.card{
+    width: 60%;
+    margin: auto;
+}
+.main-container{
+    border: 1px solid grey !important;
+    margin: 2px;
+}

@@ -1,0 +1,520 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Libre+Baskerville:ital@1&family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@0;1&family=Libre+Baskerville:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(218, 28%, 13%);
+    Font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* made grid area */
+.gridcontainer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.logo{
+    padding: 4% 10%;
+}
+
+
+
+.menus{
+    padding: 4% 10% 4% 60%; /*we have to take a look again*/
+}
+
+.nav-menu{
+    display: inline;
+}
+.nav-menu-items{
+    display: inline-block;
+    margin: 5%;
+    
+}
+.nav-menu-items a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    
+}
+.nav-menu-items a:hover{
+    color:  hsl(176, 68%, 64%);
+}
+.banner_image{
+    text-align: center;
+}
+
+/* first section starts here */
+.Main-section{
+    width: 40%;
+    margin: 4% auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.heading{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.paragraph{
+    width: 70%;
+    margin: 4% auto;
+    font-size: 20px;
+}
+.btn{
+    background-color: hsl(176, 68%, 64%);
+    padding: 3% 15%;
+    border-radius: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    border: none;
+}
+.btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(176, 68%, 64%);
+}
+/* first section ends here */
+
+/* second section starts here */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 10%;
+    font-family: 'Raleway', sans-serif;
+}
+.subcontainer{
+    text-align: center;
+    padding: 2%;
+}
+.para{
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+    margin-bottom: 10%;
+}
+.header{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+/* second section ends here */ 
+
+/* third section starts here */
+.grid_container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.minicontainer1{
+    margin-left: 20%;
+}
+.minicontainer2{
+    padding-top: 15%;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 20%;
+}
+.Header{
+    font-weight: bolder;
+    width:40% ;
+    font-size: 30px;
+}
+.subpgraph{
+    width: 80%;
+    padding: 1.5% 0;
+}
+.subpgraph1 a{
+    color:hsl(176, 68%, 64%);
+}
+.subpgraph1 a:hover{
+    color:hsl(0, 0%, 100%);
+}
+/* third seection ends here */
+
+/* fourth section starts here */
+.gridboxcontainers{
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 10% 10%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.box{
+    background-color: rgba(33,41,60,255);
+    padding: 15% 5%;
+    margin: 5%; 
+    box-shadow: 5px 10px rgba(26,33,43,255)
+}
+.IMG img{
+    border-radius: 50%;
+    height: 50px;
+    margin-top: 5%;
+    float: left;
+}
+.about_person{
+    float: left;
+    margin-top: 8%;
+    margin-left: 5%;
+}
+p{
+    font-size: smaller;
+}
+
+/* fourth section ends here */
+
+
+/* fifth section starts here */
+.container{
+    background-color: rgba(28,34,48,255);
+    width: 50%;
+    margin: auto;
+    height: 250px;
+}
+.HEading{
+text-align: center;
+font-size: 30px;
+font-weight: bolder;
+font-family: 'Raleway', sans-serif;
+padding: 4% 0;
+}
+.PAragraph{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 25px;
+}
+.searchbar{
+    text-align: center;
+    padding-top:3%;
+    
+}
+.bar{
+    border-radius: 100px;
+    width: 60%;
+    padding: 2%;
+    border: none;
+    float: left;
+    margin-left: 6%;
+}
+.Btn{
+    border-radius: 100px;
+    padding: 2%;
+    float:left ;
+    margin-left: 2%;
+    border: none;
+    background-color: rgba(64,174,207,255);
+    font-family: 'Raleway', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-weight: bolder;
+}
+.Btn:hover{
+    background-color: hsl(176, 68%, 64%);
+    color:hsl(0, 0%, 100%);
+}
+/* fifth section ends here */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+
+/* mediaquery for mobile devices */
+@media(min-width:320px) and (max-width:576px){
+    .gridcontainer{
+        grid-template-columns: 40% 60%;
+    }
+    .logo {
+        padding: 10% 10%;
+    }
+    .logo-image{
+        width: 50%;
+    }
+    .menus{
+        padding: 10px;
+    }
+    .nav-menu{
+        padding-top: 2%;
+    }
+    .nav-menu-items{
+        margin: 2%;
+        font-size: 12px;
+    }
+    .ban-img {
+        width:100%;
+    }
+    .Main-section{
+        width: 95%;
+    }
+    .btn{
+        padding: 2% 10%;
+        font-size: 15px;
+    }
+    .paragraph{
+        width: 80%;
+        font-size: 15px;
+    }
+    /* .heading .paragraph{
+        width:100%;
+        margin: 2%;
+    } */
+    .grid-container {
+        display: block;
+    }
+    .header{
+        padding-top: 10%;
+    }
+    .para{
+        width: 100%;
+    }
+    .grid_container{
+        display: block;
+    }
+    .minicontainer1{
+        text-align: center;
+        margin-left: 0;
+    }
+    .mcIMG{
+        width: 80%;
+    }
+    .minicontainer2
+    {
+        margin-left: 0;
+    }
+    .Header{
+        font-size: 15px;
+        width: 80%;
+        margin: auto;
+    }
+    .pgraph{
+        width: 80%;
+        font-size: 10px;
+        margin: auto;
+    }
+    .gridboxcontainers{
+        display: block;
+    }
+    .box{
+        padding-top: 5%;
+        padding-bottom: 20%;
+        font-size: 10px;
+    }
+    .IMG img{
+        height: 30px;
+    }
+    .container{
+        width: 90%;
+    }
+    .HEading{
+        font-size: 20px;
+        padding-top: 10%;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 5%;
+    }
+    .PAragraph {
+        width: 90%;
+        line-height: 20px;
+    }
+    .bar {
+        margin-top: 3%;
+        width: 65%;
+        margin-left: 15%;
+    }
+    .Btn {
+        margin-left: 14%;
+        width: 70%;
+        margin-top: 5%;
+    }
+    .container{
+        height: 300px;
+    }
+    
+}
+
+/* mediaquery for Tablet devices */
+@media(min-width:577px) and (max-width:768px){
+    .menus{
+        padding: 5px;
+    }
+    .nav-menu-items{
+        margin: 6%;
+        font-size: 15px;
+    }
+    .ban-img {
+        width:100%;
+    }
+    .Main-section{
+        width: 95%;
+    }
+    .btn{
+        padding: 2% 8%;
+        font-size: 15px;
+    }
+    .paragraph{
+        width: 80%;
+        font-size: 15px;
+    }
+    .mcIMG{
+        width: 100%;
+    }
+    .minicontainer2
+    {
+        margin-left: 15%;
+        padding-top: 10px;
+    }
+    .Header{
+        font-size: 20px;
+        width:100%;
+        margin: auto;
+    }
+    .pgraph{
+        width: 100%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .gridboxcontainers{
+        margin: 10% 5%;
+    }
+    .box{
+        font-size: 10px;
+    }
+    .IMG img{
+        height: 40px;
+    }
+    .container{
+        width: 90%;
+        height: 230px;
+    }
+    .PAragraph {
+        width: 90%;
+        line-height: 20px;
+    }
+    .bar {
+        width: 50%;
+    }
+}
+
+/* 769px — 1024px: Small screens, laptops */
+
+@media(min-width:769px) and (max-width:1024px){
+    .menus{
+        padding: 0;
+    }
+    .nav-menu-items{
+        margin: 7%;
+    }
+    .Main-section{
+        width: 100%;
+    }
+    .btn{
+        padding: 2% 6%;
+        font-size: 20px;
+    }
+    .grid-container {
+        margin: 5%;
+    }
+    .mcIMG{
+        width: 100%;
+    }
+    .minicontainer1{
+        margin-left: 15%;
+    }
+    .minicontainer2{
+        padding-top: 10%;
+        margin-left: 10%;
+    }
+    .Header{
+        font-size: 20px;
+        width:80%;
+        margin: auto;
+    }
+    .pgraph{
+        width: 80%;
+        font-size: 12px;
+        margin: auto;
+    }
+    .gridboxcontainers{
+        margin: 10% 5%;
+    }
+    .IMG img{
+        height: 40px;
+    }
+    .bar{
+        width: 50%;
+    }
+    .container{
+        width: 80%;
+    }
+}
+
+/* 1025px — 1200px: Desktops, large screens */
+
+@media(min-width:1025px) and (max-width:1200px){
+    .menus{
+        padding: 0;
+        text-align: center;
+    }
+    .btn{
+        padding: 2% 6%;
+        font-size: 25px;
+    }
+    .Main-section{
+        width: 100%;
+    }
+    .grid-container {
+        margin: 5%;
+    }
+    .mcIMG{
+        width: 100%;
+    }
+    .minicontainer1{
+        margin-left: 15%;
+    }
+    .minicontainer2{
+        padding-top: 10%;
+        margin-left: 10%;
+    }
+    .container{
+        width: 60%;
+    }
+}
+
+/* 1201px and more —  Extra large screens, TV */
+
+@media(min-width:1201px){
+    .logo {
+        padding: 4% 20%;
+    }
+    .menus{
+        padding: 0;
+        text-align: center;
+    }
+    .btn{
+        padding: 2% 6%;
+        font-size: 30px;
+    }
+    .Main-section{
+        width: 100%;
+    }
+    .grid-container {
+        margin: 5%;
+    }
+    .mcIMG{
+        width: 100%;
+    }
+    .Header{
+        width: 50%;
+    }
+    .minicontainer1{
+        margin-left: 15%;
+    }
+    .minicontainer2{
+        padding-top: 10%;
+        margin-left: 10%;
+    }
+}

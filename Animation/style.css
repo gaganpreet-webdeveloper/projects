@@ -1,0 +1,50 @@
+/* Animation properties:- 
+animation-name
+animation-duration
+animation-time-function
+animation-delay
+animation-iteration-count
+animation-direction */
+/* Short hand of animation is (means above all six properties we can compress or write in a short form using shorthand name)   
+ShortHand = animation
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* body{
+    background-color: rgb(238, 189, 189);
+} */
+.Mnaa{
+    height: 500px;
+    width: 500px;
+    
+    margin:  5% auto;
+    animation-name: my-ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1{
+    text-align:center;
+    padding-top:40% ;
+
+}
+
+@keyframes  my-ani{
+    0%{
+        border-radius: 40px;
+        background-color: red;
+    }
+    30%{
+        border-radius: 60px;
+        background-color: blue;
+    }
+    60%{
+        background-color: green;
+        border-radius: 80px;
+    }
+
+}
